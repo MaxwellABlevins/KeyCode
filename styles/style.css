@@ -87,8 +87,9 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+
 body {
-  font-family: "ComicSansMS";
+  font-family: 'Comic Neue', sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -186,6 +187,10 @@ p:last-child {
 
 textarea.form-control {
   height: auto !important;
+}
+
+.ContactM {
+  margin: 10px;
 }
 
 .swiper-pagination {

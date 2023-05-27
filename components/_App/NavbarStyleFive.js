@@ -126,18 +126,6 @@ const NavbarStyleFive = () => {
                               Features Details
                             </Link>
                           </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/404/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/404/" && "active"
-                          }`}
-                        >
-                          404 Error Page
-                        </Link>
-                      </li>
                     </ul>
                   </li>
 
@@ -162,7 +150,7 @@ const NavbarStyleFive = () => {
                                 currentPath == "/services-5/" && "active"
                               }`}
                             >
-                              Services Style 5
+                              Services
                             </Link>
                           </li>
 
@@ -251,10 +239,7 @@ const NavbarStyleFive = () => {
                 <Link href="/contact/" className="btn btn-gradient">
 							    Contact Us
                 </Link>
-              </div>
-              <div className="others-option">
-
-                <Link href="/contact/" className="btn btn-gradient">
+                <Link href="/contact/" className="btn btn-gradient ContactM">
 							    Portfolio
                 </Link>
               </div>

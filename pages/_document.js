@@ -18,11 +18,8 @@ class MyDocument extends Document {
                         type="image/png" 
                         href="/images/favicon.png"
                     ></link>
-                    <link 
-                        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" 
-                        rel="stylesheet"
-                    ></link>
-                </Head>
+                    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet"/>
+                    </Head>
                 <body>
                     <Main />
                     <NextScript />
