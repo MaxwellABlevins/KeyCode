@@ -21,16 +21,6 @@ const ContactInfo = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="contact-info-box">
                                 <div className="icon">
-                                    <Icon.MapPin />
-                                </div>
-                                <h3>Visit Here</h3>
-                                <p>27 Division St, New York, NY 10002, United States of America</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="contact-info-box">
-                                <div className="icon">
                                     <Icon.Phone />
                                 </div>
                                 <h3>Call Here</h3>

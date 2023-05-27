@@ -30,8 +30,6 @@ const DigitalAgency = () => {
 
             <Projects />
 
-            <PricingStyleThree />
-
             <FeedbackStyleThree />
 
             <BlogPostStyleTwo />
