@@ -102,6 +102,10 @@ img {
   max-width: 100%;
 }
 
+.logo1 {
+  width: 100px;
+}
+
 a {
   color: #0e314c;
   display: inline-block;

@@ -46,7 +46,7 @@ const NavbarStyleFive = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/it-startup" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" className="logo1"/>
               </Link>
 
               <button
