@@ -9,9 +9,9 @@ const WhatWeOffer = () => {
                 <div className="container">
                     <div className="section-title st-fs-28">
                         <span className="sub-title">What We Offer</span>
-                        <h2>Our Featured Solutions</h2>
+                        <h2>Empowering Digital Success: Our Comprehensive Digital Solutions</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Unlock your digital potential with our comprehensive web solutions and strategic digital marketing, fueling growth and enhancing user experiences.</p>
                     </div>
 
                     <div className="row">
@@ -24,10 +24,10 @@ const WhatWeOffer = () => {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        Programmatic Advertising
+                                    Web & App Development
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+                                <p>Utilizing cutting-edge technologies like React, Flutter and Node.js to create engaging digital platforms.</p>
 
                                 <Link href="/service-details" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
@@ -44,10 +44,10 @@ const WhatWeOffer = () => {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        Strategy & Research
+                                        Game Development
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
 
                                 <Link href="/service-details" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
@@ -64,10 +64,10 @@ const WhatWeOffer = () => {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        Design & Development
+                                    Strategic Branding & Marketing
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+                                <p>Leveraging advanced tools like Google Analytics and SEMrush for data-driven marketing strategies.</p>
 
                                 <Link href="/service-details" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
@@ -84,10 +84,10 @@ const WhatWeOffer = () => {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        Branding & Marketing
+                                    E-Commerce Solutions
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+                                <p>Implementing WooCommerce, Shopify, eBay, Amazon and Etsy frameworks for seamless online shopping experiences.</p>
 
                                 <Link href="/service-details" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More

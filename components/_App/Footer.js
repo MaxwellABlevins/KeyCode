@@ -135,9 +135,9 @@ const Footer = () => {
             <div className="col-lg-12 col-md-12">
               <div className="copyright-area">
                 <p>
-                  Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  Copyright &copy; {currentYear} Keycode Syntax. All rights reserved by{" "}
+                  <a href="" target="_blank">
+                    Keycode Syntax
                   </a>
                 </p>
               </div>

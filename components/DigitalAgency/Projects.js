@@ -11,7 +11,7 @@ const Projects = () => {
                     <div className="section-title st-fs-28">
                         <h2>Proud Projects That Make Us Stand Out</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Projects = () => {
                     >
                         <SwiperSlide>
                             <div className="single-ml-projects-box">
-                                <img src="/images/projects-img1.jpg" alt="image" />
+                                <img src="/images/about-one.png" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/project-details">
                                         <span></span>

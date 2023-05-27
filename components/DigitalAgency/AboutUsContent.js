@@ -9,17 +9,18 @@ const AboutUsContent = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="agency-about-img">
-                                <img src="/images/agency-image/agency-about-img.jpg" alt="image" />
+                                <img src="/images/free-trial-img.png" alt="image" />
                             </div>
                         </div>
 
                         <div className="col-lg-6 col-md-12">
                             <div className="agency-about-content">
                                 <span className="sub-title">About Us</span>
-                                <h2>Engaging New Audiences Through Smart Approach</h2>
+                                <h2>About Keycode Syntax</h2>
+                                <h2>Elevating Your Digital Journey</h2>
                                 <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.Donec vitae sapien ut libero venenatis faucibus tempus.</p>
+                                <p>Keycode Syntax is a forward-thinking digital solutions company that marries creativity, technology, and data to craft compelling, high-performance business solutions. Since our establishment, we have dedicated ourselves to drive innovation and redefine the limits of the digital world.</p>
+                                <p>Our extensive range of services encompasses web and app development, game creation, strategic digital marketing, and e-commerce solutions. Our seasoned team utilizes cutting-edge technologies.</p>
 
                                 <Link href="/about" className="btn btn-secondary">
                                     Discover More
