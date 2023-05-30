@@ -99,34 +99,8 @@ const NavbarStyleFive = () => {
                             currentPath == "/features/" && "active"
                           }`}
                         >
-                          Features <Icon.ChevronDown />
+                          Features
                         </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/features/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/features/" && "active"
-                              }`}
-                            >
-                              Features
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/feature-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/feature-details/" && "active"
-                              }`}
-                            >
-                              Features Details
-                            </Link>
-                          </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
@@ -137,35 +111,8 @@ const NavbarStyleFive = () => {
                             currentPath == "/services-5/" && "active"
                           }`}
                         >
-                          Services <Icon.ChevronDown />
+                          Services
                         </Link>
-
-                        <ul className="dropdown-menu">
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-5/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-5/" && "active"
-                              }`}
-                            >
-                              Services
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/service-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
-                              }`}
-                            >
-                              Services Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
@@ -188,35 +135,8 @@ const NavbarStyleFive = () => {
                             currentPath == "/projects-2/" && "active"
                           }`}
                         >
-                          Projects <Icon.ChevronDown />
+                          Projects
                         </Link>
-
-                        <ul className="dropdown-menu">
-
-                          <li className="nav-item">
-                            <Link
-                              href="/projects-2/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/projects-2/" && "active"
-                              }`}
-                            >
-                              Portfolio
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/project-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/project-details/" && "active"
-                              }`}
-                            >
-                              Project Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
