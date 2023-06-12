@@ -9,7 +9,7 @@ const ProjectsDetails = () => {
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Projects Details" />
+            <PageBanner pageTitle="CashRush" />
 
             <div className="project-details-area ptb-80">
                 <div className="container">
@@ -40,11 +40,11 @@ const ProjectsDetails = () => {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="project-details-desc">
-                                <h3>Network Marketing</h3>
+                                <h3>CashRush</h3>
                                 
-                                <p>Lorem ipsum dolor sit amet, conse cte tuer adipiscing elit, sed diam no nu m nibhie eui smod. Facil isis atve eros et accumsan etiu sto odi dignis sim qui blandit praesen lup ta de er. At molestiae appellantur pro. Vis wisi oportere per ic ula ad, ei latine prop riae na, mea cu purto debitis. Primis nost rud no eos, no impedit dissenti as mea, ea vide labor amus neglegentur vix. Ancillae intellegat vix et. Sit causae laoreet nolu ise.  Ad po exerci nusquam eos te. Cu altera expet enda qui, munere oblique theo phrastu ea vix. Ne nec modus civibus modera tius, sit ei lorem doctus. Ne docen di verterem reformidans eos. Cu altera expetenda qui, munere oblique theophr astus ea vix modus civiu mod eratius.</p>
+                                <p>The Biggest Ethereum Compound Game With Gangsta Appeal Live the life of a gangster across etherum blockchain</p>
 
-                                <p>Lorem ipsum dolor sit amet, conse cte tuer adipiscing elit, sed diam no nu m nibhie eui smod. Facil isis atve eros et accumsan etiu sto odi dignis sim qui blandit praesen lup ta de er. At molestiae appellantur pro. Vis wisi oportere per ic ula ad, ei latine prop riae na, mea cu purto debitis. Primis nost rud no eos, no impedit dissenti as mea, ea vide labor amus neglegentur vix. Ancillae intellegat vix et. Sit causae laoreet nolu ise.  Ad po exerci nusquam eos te. Cu altera expet enda qui, munere oblique theo phrastu ea vix. Ne nec modus civibus modera tius, sit ei lorem doctus. Ne docen di verterem reformidans eos. Cu altera expetenda qui, munere oblique theophr astus ea vix modus civiu mod eratius.</p>
+                               
                             </div>
                         </div>
                     </div>

@@ -44,7 +44,7 @@ const Projects = () => {
                     >
                         <SwiperSlide>
                             <div className="single-ml-projects-box">
-                                <img src="/images/about-one.png" alt="image" />
+                                <img src="/images/Dawaai1.webp" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/project-details">
                                         <span></span>
