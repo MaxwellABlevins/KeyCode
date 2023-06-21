@@ -5,13 +5,16 @@ const MainBanner = () => {
     return (
         <>
             <div className="agency-main-banner">
+            <div>
+            <img src="/images/map2.png" alt="image" />
+            </div>
                 <div className="container-fluid">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="agency-banner-content">
-                                <span className="sub-title">We are creative</span>
-                                <h1>Digital Agency</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <span className="sub-title">WE PROVIDE CREATIVE &</span>
+                                <h1>Innovative IT Solutions for a Digitally Progressive World</h1>
+                                <p>Keycode Syntax is a full-service digital agency that specializes in creating beautiful and functional websites, mobile applications, game developments, and digital marketing campaigns. We have a team of experienced and highly skilled professionals who are dedicated to helping our clients achieve their business goals.</p>
 
                                 <Link href="/contact" className="btn btn-secondary">
                                     Get Started
@@ -21,7 +24,7 @@ const MainBanner = () => {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="agency-banner-image">
-                                <img src="/images/agency-image/agency-banner-img.jpg" alt="image" />
+                                <img src="/images/banner-image/main-pic.png" alt="image" />
                             </div>
                         </div>
                     </div>

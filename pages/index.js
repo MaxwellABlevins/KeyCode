@@ -6,7 +6,6 @@ import AboutUsContent from '@/components/DigitalAgency/AboutUsContent';
 import OurServices from '@/components/DigitalAgency/OurServices';
 import DigitalAgencyFunFacts from '@/components/DigitalAgency/DigitalAgencyFunFacts';
 import Projects from '@/components/DigitalAgency/Projects';
-import PricingStyleThree from '@/components/PricingPlans/PricingStyleThree';
 import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
 import BlogPostStyleTwo from '@/components/Common/BlogPostStyleTwo';
 import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
@@ -29,8 +28,6 @@ const DigitalAgency = () => {
             <DigitalAgencyFunFacts />
 
             <Projects />
-
-            <PricingStyleThree />
 
             <FeedbackStyleThree />
 

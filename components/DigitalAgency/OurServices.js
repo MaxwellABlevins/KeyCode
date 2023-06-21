@@ -9,7 +9,7 @@ const OurServices = () => {
                 <div className="container">
                     <div className="section-title st-fs-28">
                         <span className="sub-title">Our Solutions</span>
-                        <h2>Our Services</h2>
+                        <h2>Transformative Digital Solutions Tailored for You</h2>
                         <div className="bar"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -22,7 +22,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            IT Professionals
+                                        Web & App Development 
                                         </Link>
                                     </h3>
 
@@ -40,7 +40,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            Software Engineers
+                                        Game Development 
                                         </Link>
                                     </h3>
 
@@ -58,7 +58,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            Web Development
+                                        Strategic Branding & Marketing 
                                         </Link>
                                     </h3>
 
@@ -76,7 +76,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            SEO & Content
+                                        E-Commerce Solutions 
                                         </Link>
                                     </h3>
 
@@ -94,7 +94,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            Digital Marketing
+                                        SEO & Content 
                                         </Link>
                                     </h3>
 
@@ -112,7 +112,7 @@ const OurServices = () => {
                                 <div className="content">
                                     <h3>
                                         <Link href="/service-details">
-                                            Data Analysts
+                                            Data Analytics
                                         </Link>
                                     </h3>
 

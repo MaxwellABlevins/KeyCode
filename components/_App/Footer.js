@@ -14,14 +14,11 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo.png" alt="logo" />
+                    <img src="/images/logo.png" alt="logo" className="logo1"/>
                   </Link>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi.
+                Keycode Syntax is a trusted provider of innovative Web/App/Game development solutions. With our team of skilled professionals and a commitment to excellence, we deliver tailored solutions that drive results and exceed expectations. Our expertise in Web/App/Game development, coupled with our dedication to quality and client satisfaction, makes us the ideal partner for your digital needs. Contact us today to discover how we can transform your vision into reality and propel your business forward.
                 </p>
               </div>
             </div>
@@ -40,10 +37,10 @@ const Footer = () => {
                     <Link href="/features">Features</Link>
                   </li>
                   <li>
-                    <Link href="/pricing">Our Pricing</Link>
+                    <Link href="/pricing">Blog</Link>
                   </li>
                   <li>
-                    <Link href="/blog-1">Latest News</Link>
+                    <Link href="/blog-1">Portfolio Download</Link>
                   </li>
                 </ul>
               </div>
@@ -135,9 +132,9 @@ const Footer = () => {
             <div className="col-lg-12 col-md-12">
               <div className="copyright-area">
                 <p>
-                  Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  Copyright &copy; {currentYear} Keycode Syntax. All rights reserved by{" "}
+                  <a href="" target="_blank">
+                    Keycode Syntax
                   </a>
                 </p>
               </div>
