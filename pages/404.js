@@ -26,5 +26,5 @@ const Custom404 = () => {
 			</>
     )
 }
-
+//HI 
 export default Custom404
