@@ -124,11 +124,10 @@ const Projects = () => {
                     >
                         <SwiperSlide>
                             <div className="single-ml-projects-box">
-<<<<<<< HEAD
+
                                 <img src="/images/BridgeRace.png" alt="image" />
-=======
+
                                 <img src="/images/Dawaai1.webp" alt="image" />
->>>>>>> 708b0acbfbf6334ba1f23cf8494f80d8ae0e3535
                                 <div className="plus-icon">
                                     <Link href="/pdBridgeRace">
                                         <span></span>
