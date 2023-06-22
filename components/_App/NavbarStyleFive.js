@@ -46,7 +46,7 @@ const NavbarStyleFive = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/it-startup" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" className="logo1"/>
               </Link>
 
               <button
@@ -86,20 +86,11 @@ const NavbarStyleFive = () => {
                         currentPath == "/about-3/" && "active"
                       }`}
                     >
-                      About
+                      About Us
                     </Link>
                   </li>
 
-                  <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link"
-                    >
-                      Pages <Icon.ChevronDown />
-                    </Link>
-
-                    <ul className="dropdown-menu">
+                 
                       <li className="nav-item">
                         <Link
                           href="/features/"
@@ -108,37 +99,11 @@ const NavbarStyleFive = () => {
                             currentPath == "/features/" && "active"
                           }`}
                         >
-                          Features <Icon.ChevronDown />
+                          Features
                         </Link>
+                  </li>
 
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/features/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/features/" && "active"
-                              }`}
-                            >
-                              Features
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/feature-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/feature-details/" && "active"
-                              }`}
-                            >
-                              Features Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
+                  <li className="nav-item">
                         <Link
                           href="/services-5/"
                           onClick={toggleNavbar}
@@ -146,35 +111,8 @@ const NavbarStyleFive = () => {
                             currentPath == "/services-5/" && "active"
                           }`}
                         >
-                          Services <Icon.ChevronDown />
+                          Services
                         </Link>
-
-                        <ul className="dropdown-menu">
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-5/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/services-5/" && "active"
-                              }`}
-                            >
-                              Services Style 5
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/service-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
-                              }`}
-                            >
-                              Services Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
@@ -197,35 +135,8 @@ const NavbarStyleFive = () => {
                             currentPath == "/projects-2/" && "active"
                           }`}
                         >
-                          Projects <Icon.ChevronDown />
+                          Projects
                         </Link>
-
-                        <ul className="dropdown-menu">
-
-                          <li className="nav-item">
-                            <Link
-                              href="/projects-2/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/projects-2/" && "active"
-                              }`}
-                            >
-                              Portfolio
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/project-details/"
-                              onClick={toggleNavbar}
-                              className={`nav-link ${
-                                currentPath == "/project-details/" && "active"
-                              }`}
-                            >
-                              Project Details
-                            </Link>
-                          </li>
-                        </ul>
                       </li>
 
                       <li className="nav-item">
@@ -236,82 +147,20 @@ const NavbarStyleFive = () => {
                             currentPath == "/faq/" && "active"
                           }`}
                         >
-                          FAQ's
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/404/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/404/" && "active"
-                          }`}
-                        >
-                          404 Error Page
+                          FAQ
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/blog-6/"
-                      onClick={toggleNavbar}
-                      className={`nav-link ${
-                        currentPath == "/blog-6/" && "active"
-                      }`}
-                    >
-                      Blog <Icon.ChevronDown />
-                    </Link>
-
-                    <ul className="dropdown-menu">
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-6/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-6/" && "active"
-                          }`}
-                        >
-                          Blog
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-details/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentPath == "/blog-details/" && "active"
-                          }`}
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="/contact/"
-                      onClick={toggleNavbar}
-                      className={`nav-link ${
-                        currentPath == "/contact/" && "active"
-                      }`}
-                    >
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                  </div>
 
               {/* Others option */}
               <div className="others-option">
 
                 <Link href="/contact/" className="btn btn-gradient">
 							    Contact Us
+                </Link>
+                <Link href="/contact/" className="btn btn-gradient ContactM">
+							    Portfolio
                 </Link>
               </div>
             </nav>

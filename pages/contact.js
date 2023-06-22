@@ -13,11 +13,9 @@ const Contact = () => {
 
             <PageBanner pageTitle="Contact Us" />
 
-            <ContactInfo />
-
-            <GoogleMap />
-
             <ContactForm />
+
+            <ContactInfo />
            
             <Footer />
         </>
