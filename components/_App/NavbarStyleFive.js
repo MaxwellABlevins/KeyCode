@@ -105,10 +105,10 @@ const NavbarStyleFive = () => {
 
                   <li className="nav-item">
                         <Link
-                          href="/services-5/"
+                          href="/feature-details/"
                           onClick={toggleNavbar}
                           className={`nav-link ${
-                            currentPath == "/services-5/" && "active"
+                            currentPath == "/feature-details/" && "active"
                           }`}
                         >
                           Services
@@ -150,16 +150,28 @@ const NavbarStyleFive = () => {
                           FAQ
                         </Link>
                       </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/blog-6/"
+                          onClick={toggleNavbar}
+                          className={`nav-link ${
+                            currentPath == "/blog-6/" && "active"
+                          }`}
+                        >
+                          Blog
+                        </Link>
+                      </li>
                     </ul>
                   </div>
 
               {/* Others option */}
               <div className="others-option">
 
-                <Link href="/contact/" className="btn btn-gradient">
+                <Link href="/contact/" className="btn btn-secondary">
 							    Contact Us
                 </Link>
-                <Link href="/contact/" className="btn btn-gradient ContactM">
+                <Link href="/contact/" className="btn btn-secondary">
 							    Portfolio
                 </Link>
               </div>

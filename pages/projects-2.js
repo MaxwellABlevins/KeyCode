@@ -12,7 +12,7 @@ const Projects2 = () => {
             <PageBanner pageTitle="Projects" />
 
             <h1 className='row justify-content-center'>Apps</h1>
-            <div className="ml-projects-area pt-80 pb-50">
+            <div className="ml-projects-area  pb-50">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-lg-3 col-sm-6 col-md-6">
@@ -65,6 +65,7 @@ const Projects2 = () => {
                         
                         <h1 className='row justify-content-center'>Games</h1>
                         <div className="col-lg-3 col-sm-6 col-md-6">
+                        <div className="container-fluid"></div>
                             <div className="single-ml-projects-box">
                                 <img src="/images/projects-img5.jpg" alt="image" />
                             

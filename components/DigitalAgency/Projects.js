@@ -15,7 +15,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <h2 className="section-title st-fs-28 container">Apps</h2>
+                <h2 className="section-title-small ">Apps</h2>
 
                 <div className="container-fluid">
                     <Swiper
@@ -93,7 +93,7 @@ const Projects = () => {
                     </Swiper>
                 </div>
 
-                <h2 className="section-title st-fs-28 container">Games</h2>
+                <h2 className="section-title-small">Games</h2>
 
                 <div className="container-fluid">
                     <Swiper
@@ -182,7 +182,7 @@ const Projects = () => {
                     </Swiper>
                 </div>
 
-                <h2 className="section-title st-fs-28 container">Websites</h2>
+                <h2 className="section-title-small">Websites</h2>
 
 <div className="container-fluid">
     <Swiper

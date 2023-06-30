@@ -389,6 +389,7 @@ label {
 }
 .section-title.text-left h2 {
   font-weight: 500;
+  text-align: cen;
 }
 .section-title.text-left h2 span {
   display: inline-block;
@@ -399,6 +400,21 @@ label {
   margin-right: 0;
   margin-top: 10px;
 }
+
+.section-title-small {
+  flex: auto;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.projecthead {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
 
 @keyframes MOVE-BG {
   from {
@@ -7644,6 +7660,7 @@ Agency Main Banner CSS
 .agency-banner-content {
   margin-left: auto;
   max-width: 650px;
+  padding-left: 20%;
 }
 .agency-banner-content .sub-title {
   text-transform: uppercase;
