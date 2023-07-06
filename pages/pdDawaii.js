@@ -52,6 +52,53 @@ const ProjectsDetails = () => {
                                 <p>Medicine Information and Side Effects: Dawaai provides comprehensive information about medicines, including their uses, dosage instructions, precautions, and possible side effects. Users can access this information to make informed decisions about their medication.</p>
                                 <p>Pill Identification: The app features a pill identification tool that helps users identify unknown pills. Users can take a photo of a pill, and the app will analyze its appearance to provide relevant information about the medication.</p>
                                 <p>Nearby Pharmacies: Dawaai includes a feature that allows users to locate nearby pharmacies based on their current location. This makes it easier to find the nearest pharmacy for quick medicine purchases.</p>
+
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

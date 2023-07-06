@@ -54,7 +54,52 @@ const ProjectsDetails = () => {
                                 <p>Social Impact: Truff is committed to making a positive impact. They support charitable organizations and initiatives focused on ending hunger and improving food security, contributing to a better and more equitable world.</p>
                                 <p>Experience the unparalleled taste and luxury of Truff hot sauces. Whether you're a hot sauce aficionado or seeking to elevate your culinary adventures, Truff offers a premium and flavorful experience that will delight your taste buds.</p>
 
-                               
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

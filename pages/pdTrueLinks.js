@@ -54,7 +54,52 @@ const ProjectsDetails = () => {
                                 <p>Proven Performance: True Links Wear golf shoes have been trusted by professional golfers and amateurs alike. With a reputation for delivering high-quality footwear, True Links Wear has established itself as a brand that offers performance-driven shoes that enhance the overall golfing experience.</p>
                                 <p>Whether you're a professional golfer or an avid enthusiast, True Links Wear golf shoes provide the perfect combination of comfort, style, and performance. Step onto the course with confidence and style, knowing that your feet are supported by top-quality footwear from True Links Wear.</p>
 
-                               
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

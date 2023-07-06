@@ -56,7 +56,52 @@ const ProjectsDetails = () => {
                                 <p>Parental Satisfaction: Finn & Emma values the satisfaction of their customers. They strive to provide exceptional customer service, ensuring that parents feel supported and delighted throughout their journey with the brand.</p>
                                 <p>Experience the perfect blend of comfort, style, and sustainability with Finn & Emma. Dress your little one in organic, safe, and fashionable clothing while providing them with safe and engaging toys that will inspire their imagination and leave a positive impact on the planet.</p>
 
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
 
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -45,7 +45,7 @@ const NavbarStyleFive = () => {
         <div className="startp-nav">
           <div className="container-fluid">
             <nav className="navbar navbar-expand-md navbar-light">
-              <Link href="/it-startup" className="navbar-brand">
+              <Link href="/" className="navbar-brand">
                 <img src="/images/logo.png" alt="logo" className="logo1"/>
               </Link>
 

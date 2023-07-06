@@ -54,6 +54,53 @@ const ProjectsDetails = () => {
                                 <p>Regular Updates: The game developers consistently provide updates, introducing new challenges, game modes, and features to keep the gameplay fresh and exciting. You can expect a continuous stream of content and improvements to enhance your gaming experience.</p>
                                 <p>Intuitive Controls: Bridge Race offers intuitive touch controls that make building bridges and navigating the game's obstacles easy and enjoyable. The user-friendly interface ensures a smooth and responsive gameplay experience on both mobile devices and tablets.</p>
                                 <p>Bridge Race is a thrilling and addictive game that offers a unique blend of strategy, physics, and competition. Challenge yourself, construct amazing bridges, and race to victory in this captivating gaming experience.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

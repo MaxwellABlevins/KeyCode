@@ -55,6 +55,53 @@ const ProjectsDetails = () => {
                                 <p>Engaging Visuals and Soundtrack: Immerse yourself in the charming world of Hungry Hearts Diner Neo. The game features captivating visuals with adorable character designs and a delightful soundtrack that complements the cozy atmosphere of the diner.</p>
                                 <p>Relaxing Gameplay: Hungry Hearts Diner Neo offers a relaxing and enjoyable gameplay experience. Take a break from the hectic outside world and lose yourself in the comforting ambiance of the diner as you serve delicious food and forge meaningful connections.</p>
                                 <p>Hungry Hearts Diner Neo invites you to create culinary delights, build relationships, and experience heartfelt stories in a charming diner setting. Embark on this delightful journey and serve up happiness, one dish at a time.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

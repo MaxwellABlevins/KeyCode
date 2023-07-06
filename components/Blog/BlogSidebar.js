@@ -11,7 +11,7 @@ const BlogSidebar = () => {
                         <label>
                             <input type="search" className="search-field" placeholder="Search..." />
                         </label>
-                        <button type="submit">
+                        <button className="btn-secondary" type="submit">
                             <Icon.Search />
                         </button>
                     </form>
@@ -106,35 +106,35 @@ const BlogSidebar = () => {
                     <h3 className="widget-title">Tags</h3>
 
                     <div className="tagcloud">
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             IT <span className="tag-link-count">(3)</span>
                         </Link>
 
-                        <Link href="/blog-1">
-                            Spacle <span className="tag-link-count">(3)</span>
+                        <Link href="/blog-1" className='btn btn-secondary'>
+                            Spacle <span className="tag-link-count ">(3)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Games <span className="tag-link-count">(2)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Fashion <span className="tag-link-count">(2)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Travel <span className="tag-link-count">(1)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Smart <span className="tag-link-count">(1)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Marketing <span className="tag-link-count">(1)</span>
                         </Link>
 
-                        <Link href="/blog-1">
+                        <Link href="/blog-1" className='btn btn-secondary'>
                             Tips <span className="tag-link-count">(2)</span>
                         </Link>
                     </div>

@@ -54,6 +54,53 @@ const ProjectsDetails = () => {
                                 <p>Stunning Graphics: Bottle Jump 3D offers vibrant and colorful graphics that enhance the overall gaming experience. The visually appealing environments and smooth animations create an immersive and enjoyable gameplay atmosphere.</p>
                                 <p>Free to Play: The game is free to download and play, making it accessible to a wide range of players. You can enjoy the bottle flipping fun without any upfront cost and explore the game's features at your own pace.</p>
                                 <p>Bottle Jump 3D is a thrilling and entertaining game that puts your bottle flipping skills to the test. Flip and land bottles with precision, conquer challenging levels, and strive for high scores in this addictive gaming experience.</p>
+                            
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

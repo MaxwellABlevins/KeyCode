@@ -411,6 +411,8 @@ label {
 .projecthead {
   text-decoration: underline;
   font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 
@@ -723,6 +725,10 @@ Navbar CSS
   #header.headroom.is-sticky {
     border-bottom: none;
   }
+}
+
+.DA {
+  flex: 5px;
 }
 /*================================================
 Main Banner CSS

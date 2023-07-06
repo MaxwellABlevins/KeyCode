@@ -55,6 +55,53 @@ const ProjectsDetails = () => {
                                 <p>Integration with Contacts: Viber seamlessly integrates with users' existing contact lists, making it easy to find and connect with friends who are already using the app. Users can see which contacts are on Viber and initiate conversations with just a few taps.</p>
                                 <p>Cross-Platform Compatibility: Viber is available on multiple platforms, including smartphones, tablets, and desktop computers. Users can sync their conversations and contacts across devices, ensuring they can stay connected no matter which device they're using.</p>
                                 <p>Discover the power of instant communication with Viber. Stay connected with loved ones, engage in vibrant communities, and enjoy secure and convenient messaging and calling features—all in one app.</p>
+                            
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -55,6 +55,53 @@ const ProjectsDetails = () => {
                                 <p>Freshness and Quality Assurance: Krave Mart is committed to delivering fresh and high-quality groceries. The app works closely with trusted suppliers and ensures that products are carefully selected, stored, and delivered to maintain their freshness and quality.</p>
                                 <p>Efficient Order Tracking: You can easily track the status of your grocery order with Krave Mart. From the moment you place your order to its delivery, you can stay informed about its progress, estimated arrival time, and any updates through the app.</p>
                                 <p>With Krave Mart, grocery shopping becomes convenient, time-saving, and hassle-free. Experience the ease of getting your groceries delivered right to your doorstep with just a few taps on your phone.</p>
+                            
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

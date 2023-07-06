@@ -54,6 +54,53 @@ const ProjectsDetails = () => {
                                 <p>Vibrant Visuals and Sound Effects: Immerse yourself in the visually stunning world of Giant Rush. The game features vibrant and colorful graphics, accompanied by immersive sound effects that bring the larger-than-life obstacles to life.</p>
                                 <p>Free-to-Play: Giant Rush is free to download and play, offering an accessible and enjoyable experience for players of all ages. Jump into the action-packed world of giant obstacles and embark on an unforgettable adventure without any upfront cost.</p>
                                 <p>Giant Rush delivers an adrenaline-pumping and action-packed running experience like no other. Dodge towering obstacles, unleash power-ups, and race against your friends as you strive to conquer the giant world in this epic endless runner game.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -54,6 +54,53 @@ const ProjectsDetails = () => {
                                 <p>Easy-to-Learn Controls: The game features intuitive and easy-to-learn controls, allowing players of all skill levels to enjoy the experience. Swipe, tap, and perform gestures to control the princess's movements and interact with the environment effortlessly.</p>
                                 <p>Engaging Challenges: Once Upon a Tower offers a variety of challenges, including unique boss encounters and puzzle-solving elements. The diverse gameplay ensures that each level presents new and exciting obstacles to overcome, keeping the gameplay fresh and engaging.</p>
                                 <p>Once Upon a Tower offers a captivating and immersive experience filled with action, adventure, and mystery. Join the princess on her quest for freedom, overcome the tower's challenges, and unravel the secrets within in this thrilling gaming journey.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ const Projects2 = () => {
 
             <PageBanner pageTitle="Projects" />
 
-            <h1 className='row justify-content-center'>Apps</h1>
+            <h1 className='row justify-content-center projecthead'>Apps</h1>
             <div className="ml-projects-area  pb-50">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
@@ -63,7 +63,7 @@ const Projects2 = () => {
                             </div>
                         </div>
                         
-                        <h1 className='row justify-content-center'>Games</h1>
+                        <h1 className='row justify-content-center projecthead'>Games</h1>
                         <div className="col-lg-3 col-sm-6 col-md-6">
                         <div className="container-fluid"></div>
                             <div className="single-ml-projects-box">
@@ -125,7 +125,7 @@ const Projects2 = () => {
                             </div>
                         </div>
 
-                        <h1 className='row justify-content-center'>Websites</h1>
+                        <h1 className='row justify-content-center projecthead'>Websites</h1>
                         <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className="single-ml-projects-box">
                                 <img src="/images/projects-img8.jpg" alt="image" />
@@ -197,7 +197,7 @@ const Projects2 = () => {
                                 <img src="/images/projects-img8.jpg" alt="image" />
                             
                                 <div className="plus-icon">
-                                    <Link href="/pdFinn&Emma">
+                                    <Link href="/pdFinna&Emma">
                                         <span></span>
                                     </Link>
                                 </div>

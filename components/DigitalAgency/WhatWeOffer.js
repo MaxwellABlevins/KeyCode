@@ -5,6 +5,7 @@ import * as Icon from 'react-feather';
 const WhatWeOffer = () => {
     return (
         <>
+        <div>
             <div className="solutions-area ptb-80">
                 <div className="container">
                     <div className="section-title st-fs-28">
@@ -23,13 +24,13 @@ const WhatWeOffer = () => {
                                 </div>
 
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/web-development">
                                     Web & App Development
                                     </Link>
                                 </h3>
                                 <p>Utilizing cutting-edge technologies like React, Flutter and Node.js to create engaging digital platforms.</p>
 
-                                <Link href="/service-details" className="learn-more-btn">
+                                <Link href="/web-development" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
                                 </Link>
                             </div>
@@ -43,13 +44,13 @@ const WhatWeOffer = () => {
                                 </div>
 
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/game-development">
                                         Game Development
                                     </Link>
                                 </h3>
                                 <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
 
-                                <Link href="/service-details" className="learn-more-btn">
+                                <Link href="/game-development" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
                                 </Link>
                             </div>
@@ -63,13 +64,13 @@ const WhatWeOffer = () => {
                                 </div>
 
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/strategic-branding">
                                     Strategic Branding & Marketing
                                     </Link>
                                 </h3>
                                 <p>Leveraging advanced tools like Google Analytics and SEMrush for data-driven marketing strategies.</p>
 
-                                <Link href="/service-details" className="learn-more-btn">
+                                <Link href="/strategic-branding" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
                                 </Link>
                             </div>
@@ -83,17 +84,59 @@ const WhatWeOffer = () => {
                                 </div>
 
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/e-commerce">
                                     E-Commerce Solutions
                                     </Link>
                                 </h3>
                                 <p>Implementing WooCommerce, Shopify, eBay, Amazon and Etsy frameworks for seamless online shopping experiences.</p>
 
-                                <Link href="/service-details" className="learn-more-btn">
+                                <Link href="/e-commerce" className="learn-more-btn">
                                     <Icon.PlusCircle /> Learn More
                                 </Link>
                             </div>
                         </div>
+                        
+                        <div className="col-lg-3 col-sm-6 col-md-6 DA">
+                            <div className="solutions-box">
+                                <div className="icon">
+                                    <i className="bx bx-bar-chart-alt"></i>
+                                    <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
+                                </div>
+
+                                <h3>
+                                    <Link href="/seo-content">
+                                        SEO & Content
+                                    </Link>
+                                </h3>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
+
+                                <Link href="/seo-content" className="learn-more-btn">
+                                    <Icon.PlusCircle /> Learn More
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-6 col-md-6 DA">
+                            <div className="solutions-box">
+                                <div className="icon">
+                                    <i className="bx bx-landscape"></i>
+                                    <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
+                                </div>
+
+                                <h3>
+                                    <Link href="/data-analytics">
+                                        Data Analytics
+                                    </Link>
+                                </h3>
+                                <p>Harnessing the power of Unity and Unreal Engine to design immersive gaming experiences.</p>
+<h3>
+                                <Link href="/data-analytics" className="learn-more-btn">
+                                    <Icon.PlusCircle/> Learn More
+                                </Link>
+                                </h3>
+                            </div>
+                        </div>
+            
                     </div>
                 </div>
                 
@@ -104,6 +147,7 @@ const WhatWeOffer = () => {
                         alt="image" 
                     />
                 </div>
+            </div>
             </div>
         </>
     );

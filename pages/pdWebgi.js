@@ -53,6 +53,53 @@ const ProjectsDetails = () => {
                                 <p>Secure Online Shopping: Webgi Jewelry provides a secure and user-friendly online shopping experience. With their encrypted website and secure payment options, you can shop with confidence and have your jewelry delivered right to your doorstep.</p>
                                 <p>Customer Satisfaction: Webgi Jewelry values customer satisfaction and strives to provide exceptional service. Their friendly and knowledgeable customer support team is available to assist you with any inquiries, ensuring a smooth and enjoyable shopping experience.</p>
                                 <p>Whether you're looking for the perfect engagement ring, a meaningful gift for a loved one, or a stunning piece of jewelry to elevate your style, Webgi Jewelry offers an exquisite selection that combines elegance, quality, and artistry. Explore their collections and indulge in the beauty of finely crafted jewelry.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

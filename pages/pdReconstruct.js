@@ -54,6 +54,53 @@ const ProjectsDetails = () => {
                                 <p>Integration with Wearable Devices: Reconstruct seamlessly integrates with popular wearable devices and fitness trackers, allowing you to sync your data and monitor your activity levels throughout the day. This integration provides a holistic view of your fitness journey and enables you to make data-driven decisions for continuous improvement.</p>
                                 <p>Goal Tracking and Reminders: Reconstruct enables you to set specific fitness goals and track your progress towards achieving them. You can set reminders for your workouts, nutrition goals, and other activities to stay accountable and on track with your fitness routine.</p>
                                 <p>With Reconstruct by TRAINERIZE, you have access to a comprehensive fitness solution that combines workout planning, tracking, nutrition guidance, and expert support. Start your fitness journey today and transform your body with the help of this powerful app.</p>
+                           
+                                <div className="project-details-information">
+                                    <div className="single-info-box">
+                                        <h4>Happy Client</h4>
+                                        <p>John Doe</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Category</h4>
+                                        <p>Portfolio, Personal</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Date</h4>
+                                        <p>February 28, 2022</p>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <h4>Share</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <Icon.Facebook />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.twitter.com/" target="_blank">
+                                                    <Icon.Twitter />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <Icon.Instagram />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank"> 
+                                                    <Icon.Linkedin />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="single-info-box">
+                                        <a href="#" className="btn btn-primary" target="_blank">Live Preview</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
