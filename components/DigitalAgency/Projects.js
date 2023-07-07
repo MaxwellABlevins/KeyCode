@@ -59,7 +59,7 @@ const Projects = () => {
 
                         <SwiperSlide>
                             <div className="single-ml-projects-box AppIMG">
-                                <img src="/images/Telemart.png" alt="image" />
+                                <img src="/images/Telemart.png" />
                                 <div className="plus-icon">
                                     <Link href="/pdTelemart">
                                         <span></span>
@@ -70,7 +70,7 @@ const Projects = () => {
 
                         <SwiperSlide>
                             <div className="single-ml-projects-box AppIMG">
-                                <img src="/images/Krave.png" alt="image" />
+                                <img src="/images/Krave.png" />
                                 <div className="plus-icon">
                                     <Link href="/pdKrave">
                                         <span></span>
@@ -81,7 +81,7 @@ const Projects = () => {
 
                         <SwiperSlide>
                             <div className="single-ml-projects-box AppIMG">
-                                <img src="/images/Reconstruct.png" alt="image" />
+                                <img src="/images/Reconstruct.png" />
                                 <div className="plus-icon">
                                     <Link href="/pdReconstruct">
                                         <span></span>
@@ -123,11 +123,10 @@ const Projects = () => {
                         className="ml-projects-slides"
                     >
                         <SwiperSlide>
-                            <div className="single-ml-projects-box">
+                            <div className="single-ml-projects-box GAMEIMG">
 
-                                <img src="/images/BridgeRace.png" alt="image" />
+                                <img src="/images/BridgeRace.png" />
 
-                                <img src="/images/Dawaai1.webp" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/pdBridgeRace">
                                         <span></span>
@@ -137,7 +136,7 @@ const Projects = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="single-ml-projects-box">
+                            <div className="single-ml-projects-box GAMEIMG">
                                 <img src="/images/Bottle.png" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/pdBottle">
@@ -148,7 +147,7 @@ const Projects = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="single-ml-projects-box">
+                            <div className="single-ml-projects-box GAMEIMG">
                                 <img src="/images/OnceUpon.png" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/pdTower">
@@ -159,7 +158,7 @@ const Projects = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="single-ml-projects-box">
+                            <div className="single-ml-projects-box GAMEIMG">
                                 <img src="/images/GiantRush.png" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/pdGiantRush">
@@ -170,7 +169,7 @@ const Projects = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="single-ml-projects-box">
+                            <div className="single-ml-projects-box GAMEIMG">
                                 <img src="/images/HungryHearts.png" alt="image" />
                                 <div className="plus-icon">
                                     <Link href="/pdHungryHearts">

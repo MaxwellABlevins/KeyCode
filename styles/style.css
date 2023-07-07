@@ -406,6 +406,8 @@ label {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .projecthead {
@@ -7630,8 +7632,20 @@ ML Projects CSS
 }
 
 .AppIMG {
-  width: 300px;
+  width: fit-content;
   height: 450px;
+  display: flex;
+}
+@media screen and (max-width: 700px) {
+  .AppIMG {
+  padding-left: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .GAMEIMG {
+  padding-left: 50px;
+  }
 }
 
 /*================================================
@@ -7666,7 +7680,6 @@ Agency Main Banner CSS
 .agency-banner-content {
   margin-left: auto;
   max-width: 650px;
-  padding-left: 20%;
 }
 .agency-banner-content .sub-title {
   text-transform: uppercase;
